@@ -1,0 +1,93 @@
+
+<nav class="navbar navbar-light bg-light justify-content-between navbar-expand-sm" style="
+
+
+border-radius: 20px;">
+  <ul class="nav">
+    <li class="nav-item">
+      <h3 class="nav-link active mt-1" style="font-size: 25px;
+      line-height: 18px;
+      color: #0f47a2;
+      font-weight: 700;
+      font-weight: bold;">Fleet Health</h3>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" href="#" style="width: 105px;
+      height: 45px;
+      border-radius: 15px;
+      filter: drop-shadow(1px 0px 3.5px rgba(13,39,80,0.16));
+      background-image: linear-gradient(153deg, #0f61e6 0%, #0f4eb5 65%, #0f47a2 100%);
+      font-size: 12px;
+      line-height: 12px;
+      color: white;
+      font-weight: 700;
+      font-family: Poppins;
+      text-align: center;">Overview</button>
+    </li>
+  </ul>
+
+<ul class="nav justify-content-center collapse navbar-collapse" id="navbarNavDropdown" style="">
+  <li class="nav-item list-inline-item">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" style="border: none;  text-align: center;">
+      <mat-button-toggle class="name-btn" value="Truck"
+      style="font-size: 13px;"
+      >Dealer&Shop</mat-button-toggle>
+      <button class="nmbr-btn">
+        8
+        </button>
+    </mat-button-toggle-group>
+  </li>
+  <li class="nav-item">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" style="border: none;  text-align: center;">
+      <mat-button-toggle class="name-btn" value="Truck"
+      style="font-size: 13px;"
+      >Road Service</mat-button-toggle>
+      <button class="nmbr-btn">
+        8
+        </button>
+    </mat-button-toggle-group>
+  </li>
+  <li class="nav-item">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" style="border: none;  text-align: center;">
+      <mat-button-toggle class="name-btn" value="Truck"
+      style="font-size: 13px;"
+      >Yard</mat-button-toggle>
+      <button class="nmbr-btn">
+        8
+        </button>
+    </mat-button-toggle-group>
+  </li>
+  <li class="nav-item">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" style="border: none;  text-align: center;">
+      <mat-button-toggle class="name-btn" value="Truck"
+      style="font-size: 13px;"
+      >Recovery</mat-button-toggle>
+      <button class="nmbr-btn">
+        18
+        </button>
+    </mat-button-toggle-group>
+  </li>
+  <li class="nav-item">
+    <mat-button-toggle-group name="fontStyle" aria-label="Font Style" style="border: none;  text-align: center;">
+      <mat-button-toggle class="name-btn" value="Truck"
+      style="font-size: 13px;"
+      >Abandoned</mat-button-toggle>
+      <button class="nmbr-btn">
+        3
+        </button>
+    </mat-button-toggle-group>
+  </li>
+
+</ul>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="input-group me-2" style="max-width: 10rem;">
+  <input style="border:0px !important;border-top-left-radius: 15px;border-bottom-left-radius: 15px;" type="text" class="form-control border-0" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <button style="background-color: white;border-top-right-radius: 15px;border-bottom-right-radius: 15px;" class="border-0"><i class="bi bi-search me-2" style="color: #bebebe;"></i></button>
+
+</div>
+</nav>
+
+<router-outlet></router-outlet>

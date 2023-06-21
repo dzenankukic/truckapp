@@ -1,0 +1,195 @@
+<div class="container-fluid mt-2 pb-5">
+  <div class="row">
+    <div class="col-8 col-md-4 col-sm-2">
+      <span class="mt-2" style="font-size: 20px;
+      line-height: 16px;
+      color: #0f47a2;
+      font-weight: 700;
+      font-weight: bold;
+      font-family: Poppins">Overview</span>
+    </div>
+    <div class="col-4 col-md-8 col-sm-10 d-flex justify-content-end" style="">
+        <button (click)="openDialog()" style="
+        filter: drop-shadow(1px 0px 3.5px rgba(13,39,80,0.16));
+background-image: linear-gradient(-56deg, #fefefe 0%, #fdfdfd 53%, #fdfdfd 97%, #fdfdfd 100%);
+
+        height: 55px; text-align: start; border-top-left-radius: 15px; border-bottom-left-radius: 15px;
+        font-size: 12px;
+line-height: 12px;
+color: #0f61e6;
+font-weight: 400;
+font-family: 'Poppins';">Create <br>
+        <span style="font-size: 14px;
+        line-height: 14px;
+        font-weight: bold;
+        color: #0f4eb5;
+        font-weight: 400;
+        font-family: 'Poppins';
+        "><b> Work Order</b></span> </button>
+        <button (click)="openDialog()" class="p-2" style="
+        filter: drop-shadow(1px 0px 3.5px rgba(13,39,80,0.16));
+background-image: linear-gradient(-56deg, #fefefe 0%, #fdfdfd 53%, #fdfdfd 97%, #fdfdfd 100%);
+        border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+          <i class="bi bi-wrench" style="height: 55px;padding-left: 4px;
+          padding-right: 4px; font-size: 20px; border-radius: 5px;
+          filter: drop-shadow(2px 0px 2.5px rgba(13,39,80,0.32));
+background-image: linear-gradient(153deg, #0f61e6 0%, #0f4eb5 65%, #0f47a2 100%);
+color: white;"></i>
+        </button>
+    </div>
+  </div>
+
+
+
+  <div class="row mt-5">
+    <div class="col-xxl-3 col-xl-3 col-lg-5 col-md-6 col-sm-12 col-12 h-100">
+      <div class="row" >
+      <div class="btn-group" role="group" aria-label="Basic example" style="">
+        <button type="button" class="btn btn-lg" style="border: 0!important; background-image: linear-gradient(153deg, #0f61e6 0%, #0f4eb5 65%, #0f47a2 100%); border-top-left-radius: 25px;"><i class="bi bi-truck-front-fill"></i></button>
+        <button type="button" class="btn btn-lg"><i class="bi bi-wrench"></i></button>
+        <button type="button" class="btn btn-lg"><i class="bi bi-fuel-pump-fill"></i></button>
+        <button type="button" class="btn btn-lg"><i class="bi bi-alexa"></i></button>
+        <button type="button" class="btn btn-lg"><i class="bi bi-person-fill"></i></button>
+        <button type="button" class="btn  btn-md"><i class="bi bi-caret-right-fill" style="color: blue;"></i></button>
+      </div>
+    </div>
+      <div class="container pb-3" style="border-bottom-left-radius: 25px;
+      filter: drop-shadow(1px 0px 3.5px rgba(13,39,80,0.17));
+background-image: linear-gradient(153deg, #fefefe 0%, #fafafa 53%, #fdfdfd 97%, #fdfdfd 100%);">
+        <div class="row">
+
+        </div>
+        <div class="row mt-2">
+          <span style="font-size: 17px; line-height: 12px; font-weight: 700; color: #0f47a2 ">Active trucks</span>
+          <p class="card-text mt-1" style="font-size: 11px; line-height: 14px; font-weight: 400; ">Current number of trucks with assigned drivevrs</p>
+        </div>
+        <div class="row mb-2">
+          <span class="text-center mt-5" style="font-size: large; color:#0f47a2;
+          font-size: 64px;
+line-height: 43px;
+font-weight: 700;
+font-family: 'Poppins';
+text-align: center;">
+            215<sub style="font-size: 17px;
+            line-height: 14px;
+            color: #868686;
+            font-weight: 400;">74%</sub>
+          </span>
+        </div>
+        <div class="d-flex justify-content-between mt-5 mb-2">
+          <div class="ms-1" style="float:left;
+          font-size: 32px;
+line-height: 36px;
+color: #0f47a2;
+font-weight: 700;
+font-family: Poppins;
+text-align: center;
+font-weight: bold;">
+           <span style="font-size: 13px;font-weight: 300;line-height: 6px;">Total trucks</span><br>
+            250
+          </div>
+          <div class="me-1" style="float: right;font-size: 32px;
+          line-height: 36px;
+          color: #0f47a2;
+          font-weight: 700;
+          font-family: Poppins;
+          text-align: center;
+          ">
+          <span style="font-size: 13px;font-weight: 300;line-height: 6px;">Empty trucks</span> <br>
+          35<sub style="font-size: 14px;
+          line-height: 12px;
+          color: #868686;
+          font-weight: 400;">26%</sub>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-xxl-9 col-xl-9 col-lg-7 col-md-6 col-sm-12 h-100" style="
+    border-radius: 20px;
+    filter: drop-shadow(1px 0px 3.5px rgba(13,39,80,0.16));
+background-image: linear-gradient(-56deg, #fefefe 0%, #fdfdfd 53%, #fdfdfd 97%, #fdfdfd 100%);
+    ">
+      <div class="container-fluid">
+        <div class="row" style="">
+          <div class="col-10 mt-2">
+          <h3 style="line-height: 12px; font-size: 17px; font-weight: 700; color: #0f47a2;">Utilization timeline</h3>
+          <p style="line-height: 14px; font-size: 11px; font-weight: 400; color: gray;">A graph showing the number of trucks with assigned drivers versus loaded trucks. <br>
+          The actual amount will be shown in the preview by day. the preview by week or higher range will reveal aerage numbers.</p>
+        </div>
+        <div class="col-2 mt-2">
+
+
+
+
+
+        </div>
+        </div>
+        <div class="row d-flex justify-content-start">
+          <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <span style="font-size: 11px; line-height: 10px; font-weight: 400; color: #aaaaaa;">Utilization</span>
+
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <span style="font-size: 11px; line-height: 10px; font-weight: 400; color: #aaaaaa; text-align: start;">Total utilization</span>
+          </div>
+
+        </div>
+        <div class="row d-flex" >
+          <div class="col-xxl-1 col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3 ms-1">
+            <span style="font-size: 25px; line-height: 28px; font-weight: 700; color: #868686">64<sup>%</sup></span>
+          </div>
+          <div class="col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-3 col-3">
+            <span style="font-size: 25px; line-height: 28px; font-weight: 700; color: #868686">54<sup>%</sup></span>
+          </div>
+
+        </div>
+        <div class="row" >
+          <div class="col">
+            <canvas id="myChart" #myChart class="mt-1"></canvas>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+<div class="row mt-5">
+    <div class="col-xxl-2 col-xl-3 col-lg-5 col-md-6 col-sm-12">
+        <app-card [cardData]="dealerShipData"></app-card>
+    </div>
+    <div class="col-xxl-2 col-xl-3 col-lg-5 col-md-6 col-sm-12">
+      <app-card [cardData]="shopData"></app-card>
+
+
+    </div>
+    <div class="col-xxl-2 col-xl-3 col-lg-5 col-md-6 col-sm-12">
+      <app-card [cardData]="roadData"></app-card>
+
+
+    </div>
+    <div class="col-xxl-2 col-xl-3 col-lg-5 col-md-6 col-sm-12">
+      <app-card [cardData]="yardData"></app-card>
+
+
+    </div>
+    <div class="col-xxl-2 col-xl-3 col-lg-5 col-md-6 col-sm-12">
+      <app-card [cardData]="recData"></app-card>
+
+
+    </div>
+    <div class="col-xxl-2 col-xl-3 col-lg-5 col-md-6 col-sm-12">
+      <app-card [cardData]="abdData" ></app-card>
+
+
+    </div>
+
+</div>
+
+</div>
+
+
+
